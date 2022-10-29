@@ -1,8 +1,10 @@
 body {
-    background: lightblue;
+    background: linear-gradient(blue, white);
+    background-repeat: no-repeat;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-align: center;
+    height: 100vh;
 }
 
 .outer-wrapper {
@@ -12,8 +14,8 @@ body {
 }
 
 .counter-wrapper {
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 80%;
+    background: whitesmoke;
 }
 
 .title {
