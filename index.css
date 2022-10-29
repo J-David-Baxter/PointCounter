@@ -1,15 +1,19 @@
 body {
-    /* background-image: url("station.jpg");
-    background-size: cover; */
     background: lightblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-align: center;
-    /* box-sizing: border-box; */
+}
+
+.outer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .counter-wrapper {
-    max-width: 1000px;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 .title {
